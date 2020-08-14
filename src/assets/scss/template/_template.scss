@@ -1,0 +1,298 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #FFFFFF;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+
+
+
+
+//Customize css section
+//For this Template
+
+$red: #86181B;
+$ash: #5A646E;
+$golden: #d93;
+$white: #FFFFFF;
+$border: #cccccc;
+
+table.button.small table td, table.button.small table a {
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+}
+
+table.button.coupon-code table td {
+  text-align: center !important;
+  color: $red;
+  background: none !important;
+  border: 2px dotted $red !important;
+  letter-spacing: 1.5px;
+  padding: 8px 46px;
+  font-size: 28px;
+}
+
+table.button.voucher table td {
+  text-align: center !important;
+  color: $red;
+  background: none !important;
+  border: 2px dotted $red !important;
+  letter-spacing: 1.5px;
+  padding: 8px 46px;
+  font-size: 28px;
+}
+
+.text-center{
+  text-align: center !important;
+}
+
+
+p {
+  margin-bottom: 0;
+}
+
+
+table.menu th.menu-item a {
+  font-size: 14px;
+  color: $ash;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+table.menu th.menu-item a:hover {
+  color: $golden !important;
+}
+
+
+.header {
+  .logo{
+    padding-left: 26px!important;
+    .tbo-logo {
+      width: 70px;
+      height: auto;
+    }
+  }
+  .header-menu {
+    .menu-name {
+      font-size: 14px;
+    }
+  }
+}
+
+
+.section-1 {
+  .tbo-banner {
+    background-image: url(http://marketing.topbrandoutlet.co.uk/combosoft/tbo-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    .inner-content {
+      padding-left: 10px !important;
+      h2 {
+        color: $ash;
+        font-size: 22px;
+        font-family: 'Roboto Regular', sans-serif;
+      }
+
+      p {
+        color: $ash;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        b{
+          font-size: 15px;
+          color: $golden;
+        }
+      }
+
+      .coupon-code {
+        font-size: 16px;
+        font-family: 'Montserrat Bold', sans-serif;
+        background: none !important;
+        border: none;
+        color: $white;
+      }
+    }
+
+  }
+}
+
+
+
+.voucher-code{
+  .text-center{
+    .v-code{
+        text-align: center;
+    }
+    .voucher{
+      margin: auto;
+    }
+  }
+}
+
+
+
+.section{
+  .section-2 {
+    .image {
+      border: 1px solid $border;
+      background-color: #F9F9F9;
+      .d-block{
+        display: block;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif !important;
+        text-align: center !important;
+      }
+      p {
+        color: $ash;
+      }
+      .shop-btn {
+        color: $golden;
+      }
+    }
+
+    .columns-three {
+      border: 1px solid #cccccc !important;
+        .box-3{
+          text-align: center !important;
+          display: block;
+          color:  $ash;
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          p {
+            color:  $ash;
+          }
+        }
+
+    }
+  }
+
+
+  .title {
+    h2 {
+      font-size: 28px;
+      font-family: Roboto, Condensed Bold;
+      color: $ash;
+    }
+
+    p {
+      color: $ash;
+      padding: 0 60px;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+  .brand {
+    .d-block{
+      display: block;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center !important;
+    }
+    .price {
+      color: $golden;
+      font-family: 'Open Sans', sans-serif !important;
+    }
+    .para {
+      color: $ash;
+      font-family: Roboto, Condensed Bold;
+    }
+  }
+
+
+  .hr-sec {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+    .hr {
+      border-bottom: 1px solid #d6d6d6 !important;
+    }
+  }
+
+
+  .develop {
+    font-size: 14px;
+    color: $ash;
+  }
+
+  .footer .develop a {
+    color: $red;
+  }
+
+  .footer .develop a:hover {
+    color: $golden;
+  }
+
+
+  .shop-btn{
+    ul{
+      li{
+        padding: 0 10px 0 10px;
+        font-family: 'Open Sans', sans-serif;
+        color: $ash;
+        list-style: square;
+      }
+    }
+
+  }
+
+}
+
+
+
+
